@@ -1,0 +1,7 @@
+<ContentType name="blog_post">
+	<Metadata>
+		<Title>Blog Post</Title>
+		<Description>Blog post</Description>
+	</Metadata>
+	<Model include="blog_post"></Model>
+</ContentType>

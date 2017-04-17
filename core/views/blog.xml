@@ -1,0 +1,19 @@
+<View name="blog">
+	<Metadata>
+		<Title>Blog</Title>
+		<Description>Blog posts</Description>
+	</Metadata>
+	<Blocks>
+		<Block name="title">
+			<Argument name="text">Blog</Argument>
+		</Block>
+		<Block name="description">
+			<Argument name="text">Blog posts</Argument>
+		</Block>
+		<Block name="content_list">
+			<Argument name="rules">
+				<Rule type="content_type">blog</Rule>
+			</Argument>
+		</Block>
+	</Blocks>
+</View>
