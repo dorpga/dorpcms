@@ -1,0 +1,15 @@
+{{ site.settings.rendering.doctype }}
+<html lang="{{site.settings.language.language}}" dir={{site.settings.language.direction}}>
+  <head>
+    <meta charset="{{ site.settings.rendering.charset }}">
+    <title>{{RenderEngine.currentPage.title}} - {{site.settings.general.site_name}}</title>
+    {{ RenderEngine.renderStyles() }}
+  </head>
+  <body>
+    <div class="rendered-body">
+      {{ RenderEngine.renderBody() }}
+    </main>
+
+    {{ RenderEngine.renderScripts() }}
+  </body>
+</html>
