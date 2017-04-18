@@ -1,33 +1,32 @@
 [
     {
-        "name": "klein/klein",
-        "version": "v2.1.2",
-        "version_normalized": "2.1.2.0",
+        "name": "myclabs/php-enum",
+        "version": "1.5.1",
+        "version_normalized": "1.5.1.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/klein/klein.php.git",
-            "reference": "6549676cc831b9417332b3d9485c64bbf7bac728"
+            "url": "https://github.com/myclabs/php-enum.git",
+            "reference": "61f4a24da5be216301447f3278ea6562609d61f5"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/klein/klein.php/zipball/6549676cc831b9417332b3d9485c64bbf7bac728",
-            "reference": "6549676cc831b9417332b3d9485c64bbf7bac728",
+            "url": "https://api.github.com/repos/myclabs/php-enum/zipball/61f4a24da5be216301447f3278ea6562609d61f5",
+            "reference": "61f4a24da5be216301447f3278ea6562609d61f5",
             "shasum": ""
         },
         "require": {
-            "php": ">=5.3.0"
+            "php": ">=5.3"
         },
         "require-dev": {
-            "phpunit/php-code-coverage": "^2.2",
-            "phpunit/phpunit": "^4.8",
-            "squizlabs/php_codesniffer": "1.4.8"
+            "phpunit/phpunit": "4.*",
+            "squizlabs/php_codesniffer": "1.*"
         },
-        "time": "2017-02-01 23:08:58",
+        "time": "2017-03-26 10:24:21",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "Klein\\": "src/Klein/"
+                "MyCLabs\\Enum\\": "src/"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
@@ -36,25 +35,14 @@
         ],
         "authors": [
             {
-                "name": "Chris O'Hara",
-                "email": "cohara87@gmail.com",
-                "homepage": "http://chris6f.com/",
-                "role": "Creator/Developer"
-            },
-            {
-                "name": "Trevor Suarez",
-                "email": "rican7@gmail.com",
-                "homepage": "https://trevorsuarez.com/",
-                "role": "Contributor/Developer"
+                "name": "PHP Enum contributors",
+                "homepage": "https://github.com/myclabs/php-enum/graphs/contributors"
             }
         ],
-        "description": "A lightning fast router for PHP",
-        "homepage": "https://github.com/klein/klein.php",
+        "description": "PHP Enum implementation",
+        "homepage": "http://github.com/myclabs/php-enum",
         "keywords": [
-            "boilerplate",
-            "router",
-            "routing",
-            "sinatra"
+            "enum"
         ]
     }
 ]

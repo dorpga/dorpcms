@@ -1,0 +1,25 @@
+<Content>
+  <Type>page</Type>
+  <Name>test-page</Name>
+  <Urls>
+    <Url>/test</Url>
+  </Urls>
+  <Fields>
+    <Title>Test Page</Title>
+    <Body language="html">
+      <![CDATA[
+        <h1>Header</h1>
+        <p>Test <span style="color:red">Text</span></p>
+        <p>
+          <a href="https://aclevo.xyz" target="_blank">Check out Aclevo!</a>
+        </p>
+      ]]>
+    </Body>
+    <Author>
+      <Object type="User" where="id=0"></Object>
+    </Author>
+    <Array type="Tags">
+      <Object type="Tag" where="id=4"></Object>
+    </Array>
+  </Fields>
+</Content>

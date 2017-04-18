@@ -1,0 +1,7 @@
+<ContentType name="page">
+	<Metadata>
+		<Title>Page</Title>
+		<Description>Page</Description>
+	</Metadata>
+	<Model include="page"></Model>
+</ContentType>
